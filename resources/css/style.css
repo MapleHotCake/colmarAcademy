@@ -6,40 +6,57 @@ body {
 
 /* text styling */
 
+.fontStyle {
+    font-family: sans-serif;
+}
+
 h1 {
-    
+    font-family: monospace;
 }
 
 h2 {
-    
+    color: #3A3A3A;
+}
+
+.capsBlack {
+    color: black;
+}
+
+.capsGrey {
+    color: lightgrey;
 }
 
 .headerText {
-    
+    font-size: 16px;
 }
 
 .boldGreyText {
-    
+    color: #3A3A3A;
+    font-weight: 200;
 }
 
 .lightGreyText {
-    
+    color: #A5A5A5;
+    font-size: 14px;
 }
 
 .midGreyText {
-    
+    color: #3A3A3A;
+    font-style: bold;
+    font-size: 18px;
 }
 
 .linkText {
-    
+    color: blue;
 }
 
 .courses {
-    
+    color: #A5A5A5;
 }
 
 .footerText {
-    
+    font-size: 10px;
+    color: dimgrey;
 }
 
 .fa fa-copyright {
