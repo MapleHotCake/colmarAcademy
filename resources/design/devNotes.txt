@@ -1,5 +1,5 @@
-Need to add mobile elements
+Comar Academy development notes
 
-Add all CSS styling
-
-Need to add desktop elements styling
+- Need to add mobile elements
+- Add all CSS styling
+- Need to add desktop elements styling
