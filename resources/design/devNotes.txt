@@ -1,4 +1,4 @@
-Comar Academy development notes
+Colmar Academy development notes
 
 - Need to add mobile elements
 - Add all CSS styling
