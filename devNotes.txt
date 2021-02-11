@@ -1,5 +1,0 @@
-Need to add mobile elements
-
-Add all CSS styling
-
-Need to add desktop elements styling
