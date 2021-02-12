@@ -1,6 +1,82 @@
 /* Colmar Academy */
+header {
+    display: flex;
+    flex-direction: row;
+}
 
 body {
+    display: flex;
+}
+
+.sectionOne {
+    flex-direction: row;
+}
+
+.sectionTwo {
+    
+}
+
+.sectionTwoL {
+    
+}
+
+.sectionTwoR {
+    
+}
+
+.sectionTwoR1 {
+    
+}
+
+.sectionTwoR2 {
+    
+}
+
+.sectionTwoR3 {
+    
+}
+
+.sectionThree {
+    
+}
+
+.boxOne {
+    
+}
+
+.boxTwo {
+    
+}
+
+.boxThree {
+    
+}
+
+.boxFour {
+    
+}
+
+.boxFive {
+    
+}
+
+.boxSix {
+    
+}
+
+.sectionFourL {
+    
+}
+
+.sectionFourR1 {
+    
+}
+
+.sectionFourR2 {
+    
+}
+
+footer {
     
 }
 
@@ -20,14 +96,18 @@ h2 {
 
 .capsBlack {
     color: black;
+    justify-items: flex-start;
 }
 
 .capsGrey {
     color: lightgrey;
+    justify-items: flex-start;
 }
 
 .headerText {
     font-size: 16px;
+    display: flex;
+    justify-items: flex-end;
 }
 
 .boldGreyText {
@@ -66,6 +146,11 @@ h2 {
 /* image styling */
 
 .banner {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.infoMain {
     
 }
 
