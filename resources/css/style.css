@@ -36,32 +36,17 @@ body {
 .sectionTwoR {
     max-width: 40%;
     margin-top: 32px;
+    border-left: solid;
+    border-color: lightgray;
+    border-width: 1px;
 }
 
-.sectionTwoR1 {
+.sectionTwoBox {
     display: flex;
     flex-direction: row;
 }
 
-.infoText1 {
-    margin: auto;
-}
-
-.sectionTwoR2 {
-    display: flex;
-    flex-direction: row;
-}
-
-.infoText2 {
-    margin: auto;
-}
-
-.sectionTwoR3 {
-    display: flex;
-    flex-direction: row;
-}
-
-.infoText3 {
+.infoText {
     margin: auto;
 }
 
@@ -73,62 +58,54 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin: 0px 72px 0px 72px;
 }
 
-.boxOne {
+.courseBox {
     flex-direction: column;
     background-color: white;
+    margin-bottom: 32px;
 }
 
-.boxTwo {
-    flex-direction: column;
-    background-color: white;
+.courseBoxText {
+    padding: 8px 0px 24px 16px;
 }
 
-.boxThree {
-    flex-direction: column;
-    background-color: white;
-}
-
-.boxFour {
-    flex-direction: column;
-    background-color: white;
-}
-
-.boxFive {
-    flex-direction: column;
-    background-color: white;
-}
-
-.boxSix {
-    flex-direction: column;
-    background-color: white;
-}
-
-.sectionFour {
+.sectionFourContent {
     display: flex;
     flex-direction: row;
 }
 
 .sectionFourL {
     flex-direction: column;
+    max-width: 60%;
+    margin: 0px 0px 32px 24px;
 }
 
 .sectionFourR {
-    flex-direction: column;
+    max-width: 40%;
 }
 
-.sectionFourR1 {
+.sectionFourBox {
+    display: flex;
     flex-direction: row;
+    margin: 16px 0px 16px 16px;
 }
 
-.sectionFourR2 {
-    flex-direction: row;
+.sectionFourText {
+    width: 65%;
+    text-align: left;
 }
 
 footer {
+    border-top: solid;
+    border-color: lightgray;
+    border-width: 1px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 42px;
 }
 
 /* text styling */
@@ -190,6 +167,11 @@ a {
     font-size: 18px;
 }
 
+.courseTitle {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
 .linkText {
     color: blue;
 }
@@ -203,13 +185,32 @@ a {
     color: #A5A5A5;
 }
 
+#sectionFourHeading {
+    text-align: center;
+    padding: 32px 0px 32px 0px;
+    display: block;
+}
+
 .footerText {
     font-size: 10px;
     color: dimgrey;
 }
 
+.footerLeft {
+    margin-left: 24px;
+    display: inline-flex;
+    justify-items: flex;
+}
+
+footerRight {
+    margin-right: 24px;
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+}
+
 .fa fa-copyright {
-    
+    margin-left: 24px;
 }
 
 /* image and button styling */
@@ -246,4 +247,6 @@ courseImages {
 
 .thesisVideo {
     justify-items: flex-start;
+    height: 100%;
+    width: 100%;
 }
